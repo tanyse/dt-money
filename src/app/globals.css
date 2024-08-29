@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 
-.barra{
+.valor{
   
   padding-inline: 200px;
   display: flex;
@@ -29,7 +29,7 @@
 
 
 }
-.valor{
+.entrada{
   padding: 12px;
   border-radius: 2px;
   background-color: white;
@@ -37,9 +37,20 @@
   height: 136px;
   color:#363F5F;
 
-  display: flex;
   align-items: center;
   gap: 32px; 
+}
+
+.saida{
+  padding: 12px;
+  border-radius: 2px;
+  background-color: white;
+  width: 352px;
+  height: 136px;
+  color:#363F5F;
+
+  align-items: center;
+  gap: 32px;
 }
 
 .total{
@@ -50,53 +61,126 @@
   height: 136px;
   color: #FFFFFF;
 
-  display: flex;
   align-items: center;
   gap: 32px;
+
 }
 
+.titulo{
+  padding: 12px;
+  color:#363F5F;
+  width: 1120px;
+  height: 64px;
+  gap: 280px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 200px;
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.atividade1 {
+  padding-inline: 12px;
+  color:#363F5F;
+  background-color: white;
+  width: 1140px;
+  height: 44px;
+  gap: 200px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 200px;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+
+}
+.atividade2{
+  padding: 12px;
+  color:#363F5F;
+  background-color: white;
+  width: 1140px;
+  height: 44px;
+  gap: 200px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 200px;
+  margin-top: 5px;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.atividade3{
+  padding: 12px;
+  color:#363F5F;
+  background-color: white;
+  width: 1140px;
+  height: 44px;
+  gap: 200px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 200px;
+  margin-top: 5px;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.atividade4{
+  padding: 12px;
+  color:#363F5F;
+  background-color: white;
+  width: 1140px;
+  height: 44px;
+  gap: 200px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 200px;
+  margin-top: 5px;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+html{
+  /* Início */
+  
+  /*position: relative;
+  width: 1440px;
+  height: 820px;*/
+  
+  /* Background */
+  background: #F0F2F5;
+  
+  }
+
+h1 .titulo{
+    font-size: 14px;
+    text-align: center;
+  }
+
 h1{
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   display: flex;
   gap: 220px;
+  margin-top: 10px;
 }
 
 h2{
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 500;
   line-height: 54px;
   text-align: left;
-}
+  margin-top: 17px;
 
-
-html{
-/* Início */
-
-/*position: relative;
-width: 1440px;
-height: 820px;*/
-
-/* Background */
-background: #F0F2F5;
-
-}
-
-.descricao{
-  padding: 90px;
-  color:#363F5F;
-  width: 1120px;
-  height: 64px;
-  gap: 200px;
-  border-radius: 5px 0px 0px 0px;
-  opacity: 0px;
-
-  display: flex;
-  align-items: center;
 }
 
 

@@ -7,8 +7,8 @@ export function Header(){
             <Image className="max-h-10"  src="/images/logo.png" alt="Logo" width={172} height={40} />
             <button className="bg-button text-white size-4 w-[197px] px-5 py-6 rounded-md text-center flex items-center justify-center hover:opacity-80"> Nova Transação </button>
         </div>
-        <div className="barra">
-            <div className="valor" title="Entradas">
+        <div className="valor">
+            <div className="entrada" title="Entradas">
                 <h1>Entradas
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16 2.66666C8.63621 2.66666 2.66668 8.6362 2.66668 16C2.66668 23.3638 8.63622 29.3333 16 29.3333C23.3638 29.3333 29.3333 23.3638 29.3333 16C29.3333 8.6362 23.3638 2.66666 16 2.66666Z" stroke="#33CC95" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -20,7 +20,7 @@ export function Header(){
                 <h2>R$ 17.400,00</h2>
             </div>
             
-            <div className="valor" title="Saídas">
+            <div className="saida" title="Saídas">
                 <h1>Saídas
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 29.3333C23.3638 29.3333 29.3333 23.3638 29.3333 16C29.3333 8.63621 23.3638 2.66668 16 2.66667C8.63622 2.66667 2.66669 8.63621 2.66668 16C2.66668 23.3638 8.63622 29.3333 16 29.3333Z" stroke="#E62E4D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -47,11 +47,36 @@ export function Header(){
             </div>
             
         </div>
-        <div className="descricao">
+        <div className="titulo">
             <h1>Título</h1>
             <h1>Preço</h1>
             <h1>Categoria</h1>
             <h1>Data</h1>
+            
+        </div>
+        <div className="atividade1">
+            <h1>Desenvolvimento de site</h1>
+            <h1>R$ 12.000,00</h1>
+            <h1>Venda</h1>
+            <h1>13/04/2024</h1>
+        </div>
+        <div className="atividade2">
+            <h1>Hamburguer</h1>
+            <h1 color="red">-R$ 59,00</h1>
+            <h1>Alimentação</h1>
+            <h1>10/04/2021</h1>
+        </div>
+        <div className="atividade3">
+            <h1>Aluguel do apartamento</h1>
+            <h1>-R$ 1.200,00</h1>
+            <h1>Casa</h1>
+            <h1>27/03/2021</h1>
+        </div>
+        <div className="atividade4">
+            <h1>Computador</h1>
+            <h1>R$ 5.400,00</h1>
+            <h1>Venda</h1>
+            <h1>15/03/2021</h1>
         </div>
         
     </header> )
