@@ -66,10 +66,10 @@
 
 }
 
-.titulo{
+.titulos{
   padding: 12px;
   color:#363F5F;
-  width: 1120px;
+  width: 1140px;
   height: 64px;
   gap: 280px;
   border-radius: 5px 0px 0px 0px;
@@ -80,69 +80,101 @@
   display: flex;
   align-items: center;
 }
+.titulo{
+  margin-left: 10px;
+  width: 220px;
+  height: 40px;
+}
+.preco{
+  margin-left: 20px;
+  width: 200px;
+  height: 40px;
+}
+.categoria{
+  margin-left: 50px;
+  width: 200px;
+  height: 40px;
+}
+.data{
+  margin-left: 70px;
+  width: 150px;
+  height: 40px;
+}
 
 .atividade1 {
-  padding-inline: 12px;
   color:#363F5F;
   background-color: white;
   width: 1140px;
-  height: 44px;
-  gap: 200px;
+  height: 50px;
   border-radius: 5px 0px 0px 0px;
   opacity: 0px;
   margin-left: 200px;
-  margin-top: 20px;
-
-  display: flex;
+  gap: 100px;
   align-items: center;
+
+  display: inline-flex;
+
+  .preco{
+    color: #33CC95;
+  }
 
 }
 .atividade2{
-  padding: 12px;
   color:#363F5F;
   background-color: white;
   width: 1140px;
-  height: 44px;
-  gap: 200px;
+  height: 50px;
   border-radius: 5px 0px 0px 0px;
   opacity: 0px;
   margin-left: 200px;
-  margin-top: 5px;
+  margin-top: 10px;
+  gap: 100px;
+  align-items: center;
 
   display: inline-flex;
-  align-items: center;
+
+  .preco{
+    color: red;
+  }
 }
 
 .atividade3{
-  padding: 12px;
   color:#363F5F;
   background-color: white;
   width: 1140px;
-  height: 44px;
-  gap: 200px;
+  height: 50px;
   border-radius: 5px 0px 0px 0px;
   opacity: 0px;
   margin-left: 200px;
-  margin-top: 5px;
+  margin-top: 10px;
+  gap: 100px;
+  align-items: center;
 
   display: inline-flex;
-  align-items: center;
+
+  .preco{
+    color: red;
+  }
 }
 
 .atividade4{
-  padding: 12px;
   color:#363F5F;
   background-color: white;
   width: 1140px;
-  height: 44px;
-  gap: 200px;
+  height: 50px;
   border-radius: 5px 0px 0px 0px;
   opacity: 0px;
   margin-left: 200px;
-  margin-top: 5px;
+  margin-top: 10px;
+  gap: 100px;
+  align-items: center;
 
   display: inline-flex;
   align-items: center;
+
+  .preco{
+    color: #33CC95
+  }
 }
 
 html{
@@ -157,7 +189,7 @@ html{
   
   }
 
-h1 .titulo{
+h1 .titulos{
     font-size: 14px;
     text-align: center;
   }

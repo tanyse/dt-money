@@ -47,7 +47,7 @@ export function Header(){
             </div>
             
         </div>
-        <div className="titulo">
+        <div className="titulos">
             <h1>Título</h1>
             <h1>Preço</h1>
             <h1>Categoria</h1>
@@ -55,28 +55,60 @@ export function Header(){
             
         </div>
         <div className="atividade1">
-            <h1>Desenvolvimento de site</h1>
-            <h1>R$ 12.000,00</h1>
-            <h1>Venda</h1>
-            <h1>13/04/2024</h1>
+            <div className="titulo">
+                <h1>Desenvolvimento de site</h1>
+            </div>
+            <div className="preco">
+                <h1>R$ 12.000,00</h1>
+            </div>
+            <div className="categoria">
+                <h1>Venda</h1>
+            </div>
+            <div className="data">
+                <h1>13/04/2024</h1>
+            </div>
         </div>
         <div className="atividade2">
-            <h1>Hamburguer</h1>
-            <h1 color="red">-R$ 59,00</h1>
-            <h1>Alimentação</h1>
-            <h1>10/04/2021</h1>
+            <div className="titulo">
+                <h1>Hamburguer</h1>
+            </div>
+            <div className="preco">
+                <h1>-R$ 59,00</h1>
+            </div>
+            <div className="categoria">
+                <h1>Alimentação</h1>
+            </div>
+            <div className="data">
+                <h1>10/04/2021</h1>
+            </div>
         </div>
         <div className="atividade3">
-            <h1>Aluguel do apartamento</h1>
-            <h1>-R$ 1.200,00</h1>
-            <h1>Casa</h1>
-            <h1>27/03/2021</h1>
+            <div className="titulo">
+                <h1>Aluguel do apartamento</h1>
+            </div>
+            <div className="preco">
+                <h1>-R$ 1.200,00</h1>
+            </div>
+            <div className="categoria">
+                <h1>Casa</h1>
+            </div>
+            <div className="data">
+                <h1>27/03/2021</h1>
+            </div>
         </div>
         <div className="atividade4">
-            <h1>Computador</h1>
-            <h1>R$ 5.400,00</h1>
-            <h1>Venda</h1>
-            <h1>15/03/2021</h1>
+            <div className="titulo">
+                <h1>Computador</h1>
+            </div>
+            <div className="preco">
+                <h1>R$ 5.400,00</h1>
+            </div>
+            <div className="categoria">
+                <h1>Venda</h1>
+            </div>
+            <div className="data">
+                <h1>15/03/2021</h1>
+            </div>
         </div>
         
     </header> )
